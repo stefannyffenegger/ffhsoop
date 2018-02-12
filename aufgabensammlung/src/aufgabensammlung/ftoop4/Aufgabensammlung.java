@@ -7,7 +7,7 @@ package aufgabensammlung.ftoop4;
 
 /**
  *
- * @author Stefan
+ * @author Stefan Nyffenegger
  */
 public class Aufgabensammlung {
 
