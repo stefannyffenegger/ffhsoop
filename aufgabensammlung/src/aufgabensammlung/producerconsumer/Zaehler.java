@@ -10,9 +10,9 @@ public class Zaehler extends Thread {
 	 * @param s
 	 *            Das Speicherobject, das die aktuelle Zahl haelt.
 	 * @param min
-	 *            Der Startwert f�r den Zaehler
+	 *            Der Startwert für den Zaehler
 	 * @param max
-	 *            Der Endwert f�r den Zaehler (einschliesslich)
+	 *            Der Endwert für den Zaehler (einschliesslich)
 	 * 
 	 */
 	Zaehler(Speicher s, int min, int max) {

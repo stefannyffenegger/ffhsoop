@@ -3,7 +3,7 @@ package aufgabensammlung.producerconsumer;
 public interface SpeicherIf {
 
 	/**
-	 * Gibt den aktuellen Wert zur�ck.
+	 * Gibt den aktuellen Wert zurück.
 	 * 
 	 * @return
 	 * @throws InterruptedException

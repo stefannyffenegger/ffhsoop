@@ -1,9 +1,22 @@
 package aufgabensammlung.producerconsumer;
 
 //TODO Entfernen Sie den abstract modifier und implementieren Sie die fehlenden Methoden!
-public abstract class Speicher implements SpeicherIf {
+public class Speicher implements SpeicherIf {
 
-	private int wert;
-	private boolean hatWert = false;
+    private int wert;
+    private boolean hatWert = false;
+
+    public int getWert() {
+        return wert;
+    }
+
+    public void setWert(int wert) {
+        this.wert = wert;
+    }
+
+    @Override
+    public boolean isHatWert() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }
