@@ -6,10 +6,12 @@ public class Speicher implements SpeicherIf {
     private int wert;
     private boolean hatWert = false;
 
+    @Override
     public int getWert() {
         return wert;
     }
 
+    @Override
     public void setWert(int wert) {
         this.wert = wert;
     }
